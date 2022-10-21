@@ -68,8 +68,13 @@ img.ex-6-img:hover{
     filter: grayscale(100%);
 }
 
+img.ex-7-img{
+    transition: filter 1s;
+}
+
 img.ex-7-img:hover{
-    filter: grayscale(100%);
+    filter: grayscale(100%) sepia(50%);
+
 }
 
 .ex-9-img {
