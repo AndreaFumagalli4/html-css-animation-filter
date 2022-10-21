@@ -25,6 +25,12 @@ div.ex-2-square:active{
     height: 100px;
     background: red;
 }
+
+div.ex-3-square:hover{
+    border-radius: 100%;
+    transition: border-radius 2s;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
