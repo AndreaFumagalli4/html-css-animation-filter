@@ -77,6 +77,15 @@ img.ex-7-img:hover{
 
 }
 
+img.ex-8-img{
+    transition: all 2s;
+}
+
+img.ex-8-img:hover{
+    filter: grayscale(30%) sepia(70%);
+    border-radius: 5%;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
