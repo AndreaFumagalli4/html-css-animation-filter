@@ -89,7 +89,16 @@ img.ex-8-img:hover{
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s;
 }
+
+img.ex-9-img:hover{
+    filter: grayscale(60%) sepia(40%);
+    border-radius: 20px;
+    margin: 5px;
+    width: 550px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
