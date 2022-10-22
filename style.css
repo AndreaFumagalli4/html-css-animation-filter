@@ -117,6 +117,28 @@ img.ex-9-img:hover{
     font-size: 60px;
 }
 
+.ex-11-icon:hover {
+    animation: spin-h 1s linear;
+}
+
+@keyframes spin-h{
+    0%{
+        transform: rotateZ(0);
+    }
+    25%{
+        transform: rotateZ(90deg)
+    }
+    50%{
+        transform: rotateZ(180deg)
+    }
+    75%{
+        transform: rotateZ(270deg);
+    }
+    100%{
+        transform: rotateZ(0);
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
